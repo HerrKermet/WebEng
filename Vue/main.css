@@ -1,0 +1,60 @@
+.darkmode{
+	background-color: black;
+	color: white;
+}
+
+
+.title{
+	grid-area: title;
+	text-align: center;
+}
+
+.spielfeld{
+	grid-area: spielfeld;
+	border: solid;
+	background-color: mediumpurple;
+	padding: 10px;
+}
+
+.upgrades{
+	grid-area: upgrades;
+	padding: 10px;
+	border: solid;
+	background-color: mediumpurple;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+
+
+}
+
+#options{
+	grid-area: options;
+	background-color: mediumpurple;
+	border: solid;
+	text-align: center;
+	padding: 10px;
+
+}
+
+#info{
+	border: solid;
+	background-color: mediumpurple;
+}
+
+#list{
+	grid-area: upgradelist;
+	background-color: mediumpurple;
+	border: solid
+
+}
+
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas: 
+	"title title title"
+	"upgrades upgrades upgradelist"
+	"spielfeld infos upgradelist"
+	"options options upgradelist";
+}
