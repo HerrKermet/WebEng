@@ -1,6 +1,24 @@
+html {
+    background-color: darkslateblue;
+}
+
 .blog {
     border: solid;
     border-radius: 10px;
     margin: 10px;
+    background-color: rebeccapurple;
+}
+.commentWrapper {
+    border: solid;
+    margin: 10px 1px 10px 1px;
+    border-radius: 10px;
+    background-color: mediumpurple;
+}
+.commentCreatorWrapper {
+    margin: 5px;
+}
+
+.blogCreator {
+    margin-left: 10px;
 }
 
