@@ -27,11 +27,23 @@ var myBlog = {
         "<div class='blog'>"+
             "<table class='blogTable'><tr><td class='blogTitle'>{{blog.title}}</td></tr><tr><td class='blogContent'>{{blog.content}}</td></tr></table>"+
             "<div class='commentWrapper'><my-comment v-for='comment in blog.comments' v-bind:comment='comment'></my-comment></div>"+
-            "<comment-creator></comment-creator>"+
+            "<comment-creator v-on:commit-new-comment='createNewComment'></comment-creator>"+
         "</div>",
     components: {
         "my-comment": myComment,
         "comment-creator": commentCreator
+    },
+    methods: {
+        createNewComment: function(newComment){
+            if(newComment.user == "" || newComment.content == ""){
+                alert("Input must not be empty");
+                return;
+            }
+            this.blog.comments.push({
+                user: newComment.user,
+                content: newComment.content
+            });
+        }
     }
 };
 
@@ -59,25 +71,37 @@ var vm = new Vue({
        blogEntries: [
            {
                title: "Initial blog",
-               content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." 
-                   + " Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,"    
+               content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+                   + " Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,"
                    + " sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-               
+
                comments: [{
                    user: "David",
                    content: "Test comment"
-               }]
-               
+               },
+                   {
+                       user: "David",
+                       content: "Second test"
+                   }]
+
            }
        ]
     },
     methods: {
-      createNewBlog: function (entry){
-          this.blogEntries.push({
-              title: entry.title,
-              content: entry.content
-          });
-      } 
+        createNewBlog: function (newBlog){
+            if(newBlog.title == "" || newBlog.content == ""){
+                alert("Input must not be empty");
+                return;
+            }
+              this.blogEntries.push({
+                  title: newBlog.title,
+                  content: newBlog.content,
+                  comments: []
+              });
+        },
+        createNewComment: function (newComment){
+            this.blogEntries[0].comments.push(newComment);
+        }
     },
     components:{
        "my-blog": myBlog,
