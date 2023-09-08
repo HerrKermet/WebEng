@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3165249-dee4-4a5d-aee2-2772450a3c94" name="Changes" comment="Added Vue-component exercise 1">
+    <list default="true" id="d3165249-dee4-4a5d-aee2-2772450a3c94" name="Changes" comment="Added comment function">
+      <change afterPath="$PROJECT_DIR$/Rest/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rest/filmArchiv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rest/spielfilme.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue2/toDo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue2/toDoList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue2/myBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/myBlog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue2/myBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/myBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue2/toDoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/toDoList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +52,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dstec\IdeaProjects\WebEng\Rest" />
       <recent name="C:\Users\Meichler\IdeaProjects\WebEng\Vue2" />
       <recent name="C:\Users\Meichler\IdeaProjects\WebEng\Vue" />
     </key>
@@ -77,7 +87,12 @@
       <option name="presentableId" value="Default" />
       <updated>1693923968190</updated>
       <workItem from="1693923970271" duration="9057000" />
-      <workItem from="1693993024921" duration="1888000" />
+      <workItem from="1693993024921" duration="5247000" />
+      <workItem from="1694084719916" duration="8081000" />
+      <workItem from="1694114570738" duration="3192000" />
+      <workItem from="1694167827761" duration="441000" />
+      <workItem from="1694168290176" duration="38000" />
+      <workItem from="1694174642389" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Added Vue exercise 1">
       <created>1693929485639</created>
@@ -93,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693931751303</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added comment function">
+      <created>1693997560707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693997560707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Vue exercise 1" />
     <MESSAGE value="Added Vue-component exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Vue-component exercise 1" />
+    <MESSAGE value="Added comment function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comment function" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

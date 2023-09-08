@@ -1,0 +1,38 @@
+{
+	"name":"Spielfilm List",
+	"filme":[
+		{
+			"titel":"Parasite",
+			"datum":"17.10.2019",
+			"regie":"Bong Joon-ho"
+		},{
+			"titel":"Der Leuchtturm",
+			"datum":"28.11.2019",
+			"regie":"Robert Eggers"
+		},{
+			"titel":"Fight Club",
+			"datum":"11.11.1999",
+			"regie":"David Fincher"
+		},{
+			"titel":"Krieg der Sterne",
+			"datum":"09.02.1978",
+			"regie":"George Lucas"
+		},{
+			"titel":"Der Pate",
+			"datum":"14.03.1972",
+			"regie":"Francis Ford Coppola"
+		},{
+			"titel":"Der Herr der Ringe: Die zwei Türme",
+			"datum":"18.12.2002",
+			"regie":"Peter Jackson"
+		},{
+			"titel":"American Beauty",
+			"datum":"20.01.2000",
+			"regie":"Sam Mendes"
+		},{
+			"titel":"The Dark Knight",
+			"datum":"01.08.2008",
+			"regie":"Christopher Nolan"
+		}
+	]
+}

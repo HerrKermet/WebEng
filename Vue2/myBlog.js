@@ -79,10 +79,11 @@ var vm = new Vue({
                    user: "David",
                    content: "Test comment"
                },
-                   {
-                       user: "David",
-                       content: "Second test"
-                   }]
+               {
+                   user: "David",
+                   content: "Second test"
+               }
+                   ]
 
            }
        ]
@@ -98,9 +99,6 @@ var vm = new Vue({
                   content: newBlog.content,
                   comments: []
               });
-        },
-        createNewComment: function (newComment){
-            this.blogEntries[0].comments.push(newComment);
         }
     },
     components:{

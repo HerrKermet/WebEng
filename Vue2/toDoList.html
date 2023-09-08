@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My To-Do-List</title>
+        <link rel="stylesheet" href="toDo.css">
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 		<style type="text/css">
 			.finished{
@@ -16,8 +17,8 @@
  	</head>
 	<body>
 		<div id="app">
-			<main-to-do-list></main-to-do-list>
-			<to-do-list-contoller></to-do-list-contoller>
+			<to-do-list v-for="entry in entries" v-bind:propEntry="entry" v-on:commit-delete-entry="deleteEntry"></to-do-list>
+			<to-do-list-controller v-on:commit-new-entry="addNewEntry"></to-do-list-controller>
 		</div>
 		<script src="toDoList.js"></script>
 	</body>

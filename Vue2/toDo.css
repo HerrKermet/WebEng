@@ -1,0 +1,13 @@
+.entry{
+    background-color: lightcoral;
+    border: solid;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+.done{
+    background-color: lightgreen;
+}
+.title{
+    font-weight: bolder;
+    font-size: 20px;
+}

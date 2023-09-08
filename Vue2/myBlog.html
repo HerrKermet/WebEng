@@ -8,8 +8,8 @@
  	</head>
 	<body>
 		<div id="app">
-			<my-blog v-for="blog in blogEntries" v-bind:blog="blog"></my-blog>
-			<blog-creator @commit-new-blog="createNewBlog"></blog-creator>
+			<my-blog v-for="blogEntry in blogEntries" v-bind:blog="blogEntry"></my-blog>
+			<blog-creator v-on:commit-new-blog="createNewBlog"></blog-creator>
 		</div>
 		<script src="myBlog.js"></script>
 	</body>
