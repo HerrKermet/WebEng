@@ -17,7 +17,7 @@
  	</head>
 	<body>
 		<div id="app">
-			<to-do-list v-for="entry in entries" v-bind:propEntry="entry" v-on:commit-delete-entry="deleteEntry"></to-do-list>
+			<to-do-list v-for="entry in entries" v-bind:propentry="entry" v-on:commit-delete-entry="deleteEntry"></to-do-list>
 			<to-do-list-controller v-on:commit-new-entry="addNewEntry"></to-do-list-controller>
 		</div>
 		<script src="toDoList.js"></script>

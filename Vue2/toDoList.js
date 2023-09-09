@@ -24,7 +24,7 @@ var toDoListController = {
     },
     template:
         "<div>"+
-            "<input placeholder='Title' v-model='newEntry.title'><input placeholder='Content' v-model='newEntry.content'><input placeholder='Deadline'><button v-on:click='$emit(`commit-new-entry`, newEntry)'>Create</button>"+
+            "<input placeholder='Title' v-model='newEntry.title'><input placeholder='Content' v-model='newEntry.content'><input placeholder='Deadline' v-model='newEntry.deadline'><button v-on:click='$emit(`commit-new-entry`, newEntry)'>Create</button>"+
         "</div>"
 }
 

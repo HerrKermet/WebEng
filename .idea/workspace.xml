@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3165249-dee4-4a5d-aee2-2772450a3c94" name="Changes" comment="Added comment function">
-      <change afterPath="$PROJECT_DIR$/Rest/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rest/filmArchiv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rest/spielfilme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue2/toDo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue2/toDoList.js" afterDir="false" />
+    <list default="true" id="d3165249-dee4-4a5d-aee2-2772450a3c94" name="Changes" comment="Did stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue2/myBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/myBlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue2/myBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/myBlog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue2/toDoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/toDoList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue2/toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue2/toDoList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +85,9 @@
       <workItem from="1694114570738" duration="3192000" />
       <workItem from="1694167827761" duration="441000" />
       <workItem from="1694168290176" duration="38000" />
-      <workItem from="1694174642389" duration="626000" />
+      <workItem from="1694174642389" duration="2292000" />
+      <workItem from="1694194104050" duration="335000" />
+      <workItem from="1694266905699" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="Added Vue exercise 1">
       <created>1693929485639</created>
@@ -115,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693997560707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Did stuff">
+      <created>1694175319106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694175319106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +127,8 @@
     <MESSAGE value="Added Vue exercise 1" />
     <MESSAGE value="Added Vue-component exercise 1" />
     <MESSAGE value="Added comment function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment function" />
+    <MESSAGE value="Did stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did stuff" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
